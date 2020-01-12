@@ -1,0 +1,23 @@
+{
+    "name": "mcmeta",
+    "displayName": "mcmeta",
+    "description": "Support for .mcmeta files",
+    "version": "0.0.1",
+    "publisher": "xTeal",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "icon":"icons/pack.png",
+    "contributes": {
+        "languages": [{
+            "id": "json",
+            "extensions": ["mcmeta"]
+        }]
+    },
+    "files.associations": {
+        "*.mcmeta": "typescript"
+    },
+    "repository": {
+        "url": "https://github.com/NoNoTeal/mcmeta"
+    }
+}
